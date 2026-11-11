@@ -37,6 +37,8 @@ const CATEGORIES = [
   'Other'
 ];
 
+const ADMIN_PASSWORD = import.meta.env.VITE_ADMIN_PASSWORD || 'aeva_admin_2026';
+
 export default function Admin() {
   // Authentication State
   const [isAuthenticated, setIsAuthenticated] = useState(() => {
@@ -99,7 +101,7 @@ export default function Admin() {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (passwordInput === 'aeva_admin_2026') {
+    if (passwordInput === ADMIN_PASSWORD) {
       try {
         localStorage.setItem('aeva_admin_auth', 'true');
       } catch {}
@@ -643,10 +645,12 @@ export default function Admin() {
       {/* Top Header */}
       <header className="sticky top-0 z-40 bg-cream/95 backdrop-blur-md border-b border-espresso/10">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <h1 className="font-serif text-xl sm:text-2xl font-semibold tracking-wider text-espresso">
-              AEVA Admin
-            </h1>
+          <div className="flex items-center gap-1.5 text-xl sm:text-2xl font-serif tracking-widest text-espresso">
+            <span className="font-semibold">AEVA</span>
+            <span className="w-1.5 h-1.5 rounded-full bg-gold" />
+            <span className="text-xs font-sans font-semibold text-espresso-muted ml-2 px-2.5 py-0.5 rounded-full bg-espresso/5 uppercase tracking-wider">
+              Admin
+            </span>
           </div>
 
           <div className="flex items-center gap-3">

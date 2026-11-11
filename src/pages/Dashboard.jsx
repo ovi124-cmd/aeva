@@ -283,10 +283,10 @@ export default function Dashboard() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
           <Link
             to="/"
-            className="flex items-center gap-1.5 text-xl sm:text-2xl font-serif tracking-widest text-espresso hover:opacity-80 transition-opacity min-h-[44px]"
+            className="flex items-center gap-1.5 text-xl sm:text-2xl font-serif tracking-widest text-[#2B1F1A] hover:opacity-80 transition-opacity min-h-[44px]"
           >
             <span className="font-semibold">AEVA</span>
-            <span className="w-1.5 h-1.5 rounded-full bg-gold" />
+            <span className="w-1.5 h-1.5 rounded-full bg-[#C59B63]" />
           </Link>
 
           <div className="flex items-center gap-3">

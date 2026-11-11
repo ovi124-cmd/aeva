@@ -405,10 +405,10 @@ export default function Create() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
           <button
             onClick={() => navigate('/')}
-            className="flex items-center gap-1.5 text-xl sm:text-2xl font-serif tracking-widest text-espresso hover:opacity-80 transition-opacity min-h-[44px] cursor-pointer"
+            className="flex items-center gap-1.5 text-xl sm:text-2xl font-serif tracking-widest text-[#2B1F1A] hover:opacity-80 transition-opacity min-h-[44px] cursor-pointer"
           >
             <span className="font-semibold">AEVA</span>
-            <span className="w-1.5 h-1.5 rounded-full bg-gold" />
+            <span className="w-1.5 h-1.5 rounded-full bg-[#C59B63]" />
           </button>
 
           <div className="flex items-center gap-3 sm:gap-4">

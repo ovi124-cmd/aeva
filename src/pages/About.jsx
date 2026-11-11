@@ -66,10 +66,10 @@ export default function About() {
           {/* Logo */}
           <Link
             to="/"
-            className="flex items-center gap-1.5 text-2xl sm:text-3xl font-serif tracking-widest text-espresso group min-h-[44px]"
+            className="flex items-center gap-1.5 text-2xl sm:text-3xl font-serif tracking-widest text-[#2B1F1A] group min-h-[44px]"
           >
             <span className="font-semibold">AEVA</span>
-            <span className="w-1.5 h-1.5 rounded-full bg-gold transition-transform duration-300 group-hover:scale-125" />
+            <span className="w-1.5 h-1.5 rounded-full bg-[#C59B63] transition-transform duration-300 group-hover:scale-125" />
           </Link>
 
           {/* Desktop Navigation Links */}
@@ -321,10 +321,10 @@ export default function About() {
           <div className="space-y-1.5">
             <Link
               to="/"
-              className="flex items-center justify-center md:justify-start gap-1.5 text-2xl font-serif tracking-widest text-espresso"
+              className="flex items-center justify-center md:justify-start gap-1.5 text-2xl font-serif tracking-widest text-[#2B1F1A] group"
             >
               <span className="font-semibold">AEVA</span>
-              <span className="w-1.5 h-1.5 rounded-full bg-gold" />
+              <span className="w-1.5 h-1.5 rounded-full bg-[#C59B63] transition-transform duration-300 group-hover:scale-125" />
             </Link>
             <p className="text-xs sm:text-sm text-espresso-muted font-light max-w-xs">
               Bespoke, cinematic love proposals designed for forever. Delivered as a tender link.
