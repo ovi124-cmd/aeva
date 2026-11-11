@@ -1,0 +1,6 @@
+{
+  "name": "AEVA — Romantic Proposal Platform",
+  "description": "Create elegant, bespoke animated love proposal experiences and share them via unique links.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

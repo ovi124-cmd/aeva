@@ -1,0 +1,14 @@
+export const TELEGRAM_CONFIG = {
+  BOT_TOKEN: '9209677517:AAFCSzHYyv7_l0mEBNBW8xF7TYcdfsiZM3I',
+  CHAT_ID: '8481402098',
+  BOT_USERNAME: 'aeva_app_bot'
+};
+
+export function isTelegramConfigured() {
+  return (
+    TELEGRAM_CONFIG.BOT_TOKEN &&
+    TELEGRAM_CONFIG.BOT_TOKEN !== 'YOUR_BOT_TOKEN_HERE' &&
+    TELEGRAM_CONFIG.CHAT_ID &&
+    TELEGRAM_CONFIG.CHAT_ID !== 'YOUR_CHAT_ID_HERE'
+  );
+}
